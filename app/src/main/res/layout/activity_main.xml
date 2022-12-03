@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1080px"
+    android:layout_height="2400px"
+    android:background=""
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="293dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="260dp"
+        android:text="Register"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="293dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="360dp"
+        android:text="Login"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        android:onClick="sendMessage"
+        />
+
+    <!-- android:fontVariationSettings="" -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="278dp"
+        android:layout_height="91dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="Лицейский навигатор"
+        android:textColor="@color/material_dynamic_neutral20"
+        android:textSize="12pt"
+        android:gravity = "center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="282dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="218dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nudes1"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
